@@ -5,6 +5,7 @@ import roll from "../lib/roll.js"
 
 const args = minimist(process.argv.slice(2));
 
+// Including ||6, ||2, ||1 is not needed i guess
 
 const sides = args.sides;
 const dice = args.dice;
